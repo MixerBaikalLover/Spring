@@ -24,4 +24,9 @@ public class TaskController {
     public Task getTask(@PathVariable int id){
         return tasks.get(id - 1);
     }
+    @GetMapping(path = "/code")
+    public Task getTask(@PathVariable int id){
+        return ;
+    }
+
 }
